@@ -1,10 +1,10 @@
 .cart-dropdown-container {
   position: absolute;
-  width: 260px; /* increase width for more breathing room */
-  height: 360px; /* increase height for more scrolling space */
+  width: 250px; /* increase width for more breathing room */
+  height: 350px; /* increase height for more scrolling space */
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 15px;
   border: 2px solid #000000;
   background-color: #f2f2f2; /* change background color to light gray */
   top: 90px;
@@ -27,7 +27,9 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto; /* only show vertical scrollbar when needed */
-  margin-bottom: 10px; /* add some margin at the bottom */
+  margin-bottom: 5px; /* add some margin at the 
+  bottom */
+  margin-top: 5px;
 }
 
 .cart-dropdown-container .cart-item {
