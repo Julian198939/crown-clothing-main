@@ -1,4 +1,6 @@
-.checkout-container {
+import styled from "styled-components";
+
+export const CheckoutContainer = styled.div`
   width: 55%;
   min-height: 90vh;
   display: flex;
@@ -9,9 +11,9 @@
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
+`;
 
-.checkout-header {
+export const CheckoutHeader = styled.div`
   width: 100%;
   padding: 10px 0;
   display: flex;
@@ -20,21 +22,21 @@
   font-size: 18px;
   font-weight: bold;
   color: #000000;
-}
+`;
 
-.checkout-header .header-block {
+export const HeaderBlock = styled.div`
   text-transform: capitalize;
   width: 23%;
-}
 
-.checkout-header .header-block:last-child {
-  width: 8%;
-}
+  &:last-child {
+    width: 8%;
+  }
+`;
 
-.total {
+export const Total = styled.span`
   margin-top: 30px;
   margin-left: auto;
   font-size: 28px;
   font-weight: bold;
   color: #333;
-}
+`;

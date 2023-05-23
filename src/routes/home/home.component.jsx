@@ -8,34 +8,33 @@ const Home = () => {
       id: 1,
       title: "Tops",
       imageUrl:
-        "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/642ad43f24621f0011030d3e/800x.webp?source_format=jpg",
+        "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/63d7a0d47ce24900146c0d88/800x.webp?source_format=jpg",
     },
     {
       id: 2,
-      title: "Bottoms",
+      title: "Buttoms",
       imageUrl:
-        "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/6273f15114c53f002aeee44c/800x.webp?source_format=png",
+        "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/62d432af4609a20017a51a44/800x.webp?source_format=jpg",
     },
     {
       id: 3,
-      title: "Outers",
-      imageUrl:
-        "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/6326f0671421bd002278d774/800x.webp?source_format=jpg",
-    },
-    {
-      id: 4,
-      title: "Suits",
+      title: "SUITS",
       imageUrl:
         "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/62502ff02e6026002d79e5f2/800x.webp?source_format=png",
     },
     {
+      id: 4,
+      title: "Outer",
+      imageUrl:
+        "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/6326f0671421bd002278d774/800x.webp?source_format=jpg",
+    },
+    {
       id: 5,
-      title: "Accesories",
+      title: "ACCESSORIES",
       imageUrl:
         "https://shoplineimg.com/5e8e921c65b7fe001a2e1c7f/6182ad446ae532002902159d/800x.webp?source_format=jpg",
     },
   ];
-
   return (
     <div>
       <Directory categories={categories} />
