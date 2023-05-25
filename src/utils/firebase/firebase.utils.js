@@ -28,7 +28,7 @@ const firebaseConfig = {
   messagingSenderId: "868186155141",
   appId: "1:868186155141:web:7f1aa6121ed5c8472821ec",
 };
-
+// eslint-disable-next-line
 const firebaseApp = initializeApp(firebaseConfig);
 
 const Googleprovider = new GoogleAuthProvider();
